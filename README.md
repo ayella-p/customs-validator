@@ -48,7 +48,6 @@ Ctr + Shift + P
 Select Python 3.14.3
 Open Terminal (Ctrl + `)
 
-
 # 3. Install dependencies
 pip install -r requirements.txt
 
@@ -83,5 +82,13 @@ python extractor.py
     "explanation": "All key fields match perfectly between the Commercial Invoice and the Bill of Lading. No restricted commodities were detected in the description. Cleared for fast-tracked release."
   }
 }
+```
+
+---
+## Why This Matters for Logistics
+
+Manual data entry from paper invoices is one of the biggest bottlenecks in Philippine logistics. A single mistyped amount can cause shipment delays and inventory mismatches. GreenLane AI automates this pipeline—the same way barcode scanning eliminated manual entry at checkout counters.
+---
+
 
 
