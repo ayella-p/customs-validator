@@ -34,6 +34,37 @@ GreenLane AI is an automated logistics and document intelligence tool that:
 * **Pillow (PIL)** — Image handling and processing.
 * **python-dotenv** — Secure environment variable management.
 
+---
+
+## Installation & Running
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/costums-validator.git
+cd customs-validator
+
+#2. Select Python interpreter (if version is not latest)
+Ctr + Shift + P
+Select Python 3.14.3
+Open Terminal (Ctrl + `)
+
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the web app
+py -m streamlit run app.py
+
+# OR run the CLI demo
+python extractor.py
+
+#Use own API Key
+
+```
+
+---
+
+
 ## Demo Output Example
 
 **Input:** Uploaded images of a Commercial Invoice and a Bill of Lading.
@@ -52,3 +83,5 @@ GreenLane AI is an automated logistics and document intelligence tool that:
     "explanation": "All key fields match perfectly between the Commercial Invoice and the Bill of Lading. No restricted commodities were detected in the description. Cleared for fast-tracked release."
   }
 }
+
+
