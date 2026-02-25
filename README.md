@@ -14,7 +14,7 @@ GreenLane AI is an automated logistics and document intelligence tool that:
 
 | Field | Document Source | Example |
 | :--- | :--- | :--- |
-| **Consignee Name** | Invoice & BOL | Ayella IT Solutions |
+| **Consignee Name** | Invoice & BOL | AA Datos Solutions |
 | **Total Value / Weight** | Invoice & BOL | 250 kg / $ 5000.00 |
 | **Commodity Description** | Invoice & BOL | Standard Computer Keyboards |
 | **Restricted Status** | Evaluated via AI | Clear (No restricted items) |
@@ -87,7 +87,7 @@ python extractor.py
 ---
 ## Why This Matters for Logistics
 
-Manual data entry from paper invoices is one of the biggest bottlenecks in Philippine logistics. A single mistyped amount can cause shipment delays and inventory mismatches. GreenLane AI automates this pipeline—the same way barcode scanning eliminated manual entry at checkout counters.
+* Manual data entry from paper invoices is one of the biggest bottlenecks in Philippine logistics. A single mistyped amount can cause shipment delays and inventory mismatches. GreenLane AI automates this pipeline—the same way barcode scanning eliminated manual entry at checkout counters.
 ---
 
 
