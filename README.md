@@ -14,7 +14,7 @@ GreenLane AI is an automated logistics and document intelligence tool that:
 
 | Field | Document Source | Example |
 | :--- | :--- | :--- |
-| **Consignee Name** | Invoice & BOL | AA Datos Solutions |
+| **Consignee Name** | Invoice & BOL | Ayella IT Solutions |
 | **Total Value / Weight** | Invoice & BOL | 250 kg / $ 5000.00 |
 | **Commodity Description** | Invoice & BOL | Standard Computer Keyboards |
 | **Restricted Status** | Evaluated via AI | Clear (No restricted items) |
@@ -34,36 +34,6 @@ GreenLane AI is an automated logistics and document intelligence tool that:
 * **Pillow (PIL)** — Image handling and processing.
 * **python-dotenv** — Secure environment variable management.
 
----
-
-## Installation & Running
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/costums-validator.git
-cd customs-validator
-
-#2. Select Python interpreter (if version is not latest)
-Ctr + Shift + P
-Select Python 3.14.3
-Open Terminal (Ctrl + `)
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Run the web app
-py -m streamlit run app.py
-
-# OR run the CLI demo
-python extractor.py
-
-#Use own API Key
-
-```
-
----
-
-
 ## Demo Output Example
 
 **Input:** Uploaded images of a Commercial Invoice and a Bill of Lading.
@@ -82,13 +52,3 @@ python extractor.py
     "explanation": "All key fields match perfectly between the Commercial Invoice and the Bill of Lading. No restricted commodities were detected in the description. Cleared for fast-tracked release."
   }
 }
-```
-
----
-## Why This Matters for Logistics
-
-* Manual data entry from paper invoices is one of the biggest bottlenecks in Philippine logistics. A single mistyped amount can cause shipment delays and inventory mismatches. GreenLane AI automates this pipeline—the same way barcode scanning eliminated manual entry at checkout counters.
----
-
-
-
